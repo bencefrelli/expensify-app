@@ -57,7 +57,7 @@ export const startEditExpense = ( id, updates) => {
 export const setExpenses = ( expenses) => ({
   type: 'SET_EXPENSES',
   expenses
-});
+}); 
 
 export const startSetExpenses = () => {
   return ( dispatch, getState) => {
